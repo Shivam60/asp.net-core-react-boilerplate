@@ -1,0 +1,49 @@
+{
+  "name": "asp.net-core-react-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "asp.net react boilerplate with typescript",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "npx webpack --config webpack.config.js",
+    "transpile": "npx tsc --build",
+    "prepare": "npm run transpile && npm run bundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam60/asp.net-react-boilerplate.git"
+  },
+  "keywords": [
+    "asp.net",
+    "react",
+    "boilerplate",
+    "typescript"
+  ],
+  "author": "Shivam Chawla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shivam60/asp.net-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/shivam60/asp.net-react-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

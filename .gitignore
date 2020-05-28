@@ -4,3 +4,4 @@ obj
 Scripts/ReactApp/node_modules
 Scripts/ReactApp/transpiled
 Scripts/ReactApp/output
+wwwroot/js
