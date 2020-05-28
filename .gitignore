@@ -1,0 +1,6 @@
+bin
+obj
+.vs
+Scripts/ReactApp/node_modules
+Scripts/ReactApp/transpiled
+Scripts/ReactApp/output
